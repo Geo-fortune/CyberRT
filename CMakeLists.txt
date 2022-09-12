@@ -5,10 +5,10 @@ project(cyber VERSION 1.1.0)
 set(CMAKE_CXX_STANDARD 14)
 set(TARGET_NAME ${PROJECT_NAME})
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-set(CYBER_PYTHON_PATH "lib/python3.6/site-packages/cyber/python")
+set(CYBER_PYTHON_PATH "lib/python3.8/dist-packages/cyber/python")
 set(CYBER_PYTHON_INTERNAL_PATH "${CYBER_PYTHON_PATH}/internal")
-set(CYBER_PYTHON_PROTOBUF_PATH "lib/python3.6/site-packages/cyber/proto")
-set(CYBER_PYTHON_LIB "/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu/libpython3.6.so")
+set(CYBER_PYTHON_PROTOBUF_PATH "lib/python3.8/dist-packages/cyber/proto")
+set(CYBER_PYTHON_LIB "/usr/lib/python3.8/config-3.8-x86_64-linux-gnu/libpython3.8.so")
 
 enable_language(ASM)
 
